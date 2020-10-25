@@ -1,7 +1,16 @@
 import React from 'react';
 
+import SignIn from './pages/SignIn';
+
+import GlobalStyles from './styles/global';
+
 const App = () => {
-  return <h1>Opa</h1>;
+  return (
+    <>
+      <GlobalStyles />
+      <SignIn />
+    </>
+  );
 };
 
 export default App;
